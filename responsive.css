@@ -1,0 +1,19 @@
+/* For Tablets */
+@media all and (max-width: 1000px){
+
+}
+
+/* For Mobile */
+@media all and (max-width: 670px){
+
+
+    .menu-icon{
+        color: black;
+        font-size: 25px;
+        padding: 21px 0px;
+        display: block;
+      }
+    
+}
+
+
