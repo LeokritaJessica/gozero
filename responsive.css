@@ -1,7 +1,16 @@
 /* For Tablets */
 @media all and (max-width: 1024px){
-  .navbar{
+  .header-right, .header-left{
     display: none;
+  }
+
+  .navbar{
+    justify-content: space-between;
+  }
+
+  .menu-icon{
+    display: flex !important;
+    
   }
 
   .promote{
@@ -272,8 +281,13 @@
 
 /* For Mobile */
 @media all and (max-width: 670px){
-  .navbar{
+  .header-right, .header-left{
     display: none;
+  }
+
+  .menu-icon{
+    display: flex !important;
+    
   }
 
   .promote{

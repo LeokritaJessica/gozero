@@ -68,6 +68,9 @@ header{
     font-weight: 600;
 }
 
+.menu-icon{
+    display: none !important;
+}
 
 .top-wrapper{
     padding: 10px 10px;
