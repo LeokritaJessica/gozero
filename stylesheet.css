@@ -14,10 +14,6 @@
     --orange : #FFB45C;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 body, html{
     height: 100%;
 }
@@ -84,16 +80,36 @@ header{
     background-attachment: fixed;
     background-repeat: no-repeat;
     height: calc(100% - 43px);
+    
 }
 
 .top-wrapper h1{
     padding-top: 30px;
     font-size: 9vh;
     font-weight: 700;
-    line-height: 5rem;
+    line-height: 4rem;
     align-items: center;
-    letter-spacing: 0.17em;
+    letter-spacing: 0.15em;
+    margin-right: 700px;
+    background: white;
+    position: relative;
     text-transform: capitalize;
+    animation: text 4s 1;
+}
+
+@keyframes text{
+    0%{
+        color: white;
+        margin-bottom: -100px;
+    }
+    40%{
+        letter-spacing: 20px;
+        margin-bottom: -100px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -100px;
+    }
 }
 
 .top-wrapper p{
