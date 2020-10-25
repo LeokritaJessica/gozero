@@ -1,19 +1,438 @@
 /* For Tablets */
-@media all and (max-width: 1000px){
+@media all and (max-width: 1024px){
+  .navbar{
+    display: none;
+  }
+
+  .promote{
+    display: flex;
+    background-color: var(--cream);
+    font-size: 1rem;
+    text-align: center;
+    height: 3em;
+    letter-spacing: 0.2rem;
+    align-items: center;
+  }
+
+  .top-wrapper{
+    background-image: url('zerotab.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+  }
+
+  .top-wrapper h1{
+    padding-top: 4vh;
+    font-size: 6vh;
+    font-weight: 700;
+    line-height: 10vh;
+    align-items: center;
+    letter-spacing: 0.17em;
+    text-transform: capitalize;
+  }
+
+  .top-wrapper p{
+      padding-top: 4vh;
+      font-weight: 500;
+      line-height: 5vh;
+      font-size: 2.7vh;
+      letter-spacing: 0.2em;
+      text-transform: capitalize;
+  }
+
+  .story-wrapper{
+    height: 150vh;
+    text-align: center;
+  }
+
+  .section{
+      font-weight: lighter;
+      padding-top: 40px;
+      text-transform: uppercase;
+      font-size: 18px;
+      letter-spacing: 0.6em;
+      align-items: flex-end;
+  }
+
+  .title{
+      padding-top: 5px;
+      text-transform: uppercase;
+      font-size: 36px;
+      line-height: 45px;
+      letter-spacing: 0.4em;
+  }
+
+  .content-story{
+      padding: 30px;
+      font-size: 19px;
+      line-height: 30px;
+      letter-spacing: 0.09em;
+  }
+
+  .story-wrapper{
+    height: 65vh;
+    text-align: center;
+  }
+  
+  .section{
+    font-weight: lighter;
+    padding-top: 7vh;
+    text-transform: uppercase;
+    font-size: 2vh;
+    letter-spacing: 0.6em;
+    align-items: flex-end;
+  }
+  
+  .title{
+    padding-top: 2vh;
+    text-transform: uppercase;
+    font-size: 4vh;
+    line-height: 6vh;
+    letter-spacing: 0.4em;
+  }
+  
+  .content-story{
+    padding: 4vh;
+    font-size: 2.5vh;
+    line-height: 4vh;
+    letter-spacing: 0.09em;
+  }
+
+  .product-wrapper{
+    height: 180vh;
+    padding-top: 4vh;
+    text-align: center;
+    padding-bottom: 8vh;
+    background-color: var(--seaweed);
+}
+
+  .products{
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+
+  .product{
+      padding-top: 7vh;
+      width: 50%;
+  }
+
+  .list-product img{
+      width: 28vh;
+  }
+
+  .txt-content{
+      width: 80%;
+      display: inline-block;
+      height: 15vh;
+      margin-top: 2.5vh;
+      font-size: 2.5vh;
+  }
+
+  .btn{
+      display: inline-block;
+      color: black;
+  }
+
+  .buy-btn{
+      background-color: white;
+      border: 1px solid black;
+      padding: 2vh 5vh;
+      transition: all 0.5s;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: 0 7px grey;
+      font-size: 2vh;
+  }
+
+  .buy-btn:hover{
+      color: white;
+      background-color: var(--grass);
+      border: 1px solid black;
+  }
+
+  .buy-btn:active{
+      box-shadow: none;
+      position: relative;
+      top: 7px;
+  }
+
+  /* Contact Form Section */
+  .contact-wrapper{
+    height: 100vh;
+    padding-top: 3vh;
+    text-align: center;
+    padding-bottom: 20vh;
+  }
+
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-item{
+    flex: 50%;
+    padding-top: 3vh;
+  }
+
+  .contact-img img{
+     width: 100%;
+  }
+
+  .contact-form h1{
+    font-size: 4vh;
+  }
+
+  .form{
+    padding-top: 2vh;
+    text-align: left;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
+  .form-title{
+    padding-bottom: 1.5vh;
+    font-size: 2vh;
+  }
+
+  .form-input{
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+
+  .form-message{
+    width: 100%;
+    height: 23vh; 
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+
+  .submit{
+    background-color: white;
+    border: 1px solid black;
+    padding: 1.8vh 7vh;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-left: 2vh;
+    margin-right: 30vh;
+    
+  }
+
+  .submit:hover{
+    color: white;
+    background-color: var(--grass);
+    border: 1px solid black;
+  }  
+
 
 }
 
 /* For Mobile */
 @media all and (max-width: 670px){
+  .navbar{
+    display: none;
+  }
 
+  .promote{
+    display: flex;
+    background-color: var(--cream);
+    font-size: 0.6rem;
+    text-align: center;
+    height: 3em;
+    letter-spacing: 0.2rem;
+    align-items: center;
+  }
 
-    .menu-icon{
-        color: black;
-        font-size: 25px;
-        padding: 21px 0px;
-        display: block;
-      }
+  .top-wrapper{
+    background-image: url('zerophone3.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
     
+  }
+
+  .top-wrapper h1{
+    padding-top: 4vh;
+    font-size: 4vh;
+    font-weight: 700;
+    line-height: 8vh;
+    align-items: center;
+    letter-spacing: 0.17em;
+    text-transform: capitalize;
+}
+
+  .top-wrapper p{
+      padding-top: 4vh;
+      font-weight: 500;
+      line-height: 4vh;
+      font-size: 2vh;
+      letter-spacing: 0.2em;
+      text-transform: capitalize;
+  }
+
+  /* Story Section */
+  .story-wrapper{
+    height: 120vh;
+    text-align: center;
+  }
+
+  .section{
+    font-weight: lighter;
+    padding-top: 8vh;
+    text-transform: uppercase;
+    font-size: 2vh;
+    letter-spacing: 0.6em;
+    align-items: flex-end;
+  }
+
+  .title{
+    padding-top: 2vh;
+    text-transform: uppercase;
+    font-size: 4vh;
+    line-height: 6vh;
+    letter-spacing: 0.4em;
+  }
+
+  .content-story{
+    padding: 4vh;
+    font-size: 2.5vh;
+    line-height: 4vh;
+    letter-spacing: 0.09em;
+  }
+
+  /* Product Section */
+  .product-wrapper{
+    height: 320vh;
+    padding-top: 4vh;
+    text-align: center;
+    padding-bottom: 8vh;
+    background-color: var(--seaweed);
+}
+
+  .products{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .product{
+      padding-top: 7vh;
+      width: 100%;
+  }
+
+  .list-product img{
+      width: 28vh;
+  }
+
+  .txt-content{
+      width: 76%;
+      display: inline-block;
+      height: 15vh;
+      margin-top: 2.5vh;
+      font-size: 2.1vh;
+  }
+
+  .btn{
+      display: inline-block;
+      color: black;
+  }
+
+  .buy-btn{
+      background-color: white;
+      border: 1px solid black;
+      padding: 2vh 5vh;
+      transition: all 0.5s;
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: 0 7px grey;
+      font-size: 1.9vh;
+  }
+
+  .buy-btn:hover{
+      color: white;
+      background-color: var(--grass);
+      border: 1px solid black;
+  }
+
+  .buy-btn:active{
+      box-shadow: none;
+      position: relative;
+      top: 7px;
+  }
+
+  
+  /* Contact Form Section */
+  .contact-wrapper{
+    height: 100vh;
+    padding-top: 3vh;
+    text-align: center;
+    padding-bottom: 20vh;
+  }
+
+  .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-item{
+    flex: 50%;
+    padding-top: 3vh;
+  }
+
+  .contact-img img{
+  width: 100%h;
+  }
+
+  .form{
+    padding-top: 4vh;
+    text-align: left;
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+
+  .form-title{
+    padding-bottom: 1.5vh;
+  }
+
+  .form-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .form-message{
+    width: 100%;
+    height: 25vh; 
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+
+  .submit{
+    background-color: white;
+    border: 1px solid black;
+    padding: 1.5vh 6vh;
+    transition: all 0.5s;
+    text-transform: uppercase;
+    cursor: pointer;
+    
+  }
+
+  .submit:hover{
+    color: white;
+    background-color: var(--grass);
+    border: 1px solid black;
+  }
+
+ 
+
 }
 
 
