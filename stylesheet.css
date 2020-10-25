@@ -99,7 +99,7 @@ header{
 
 /* Story Section */
 .story-wrapper{
-    height: 90vh;
+    margin-bottom: 5vh;
     text-align: center;
 }
 
@@ -129,7 +129,6 @@ header{
 
 /* Product Section */
 .product-wrapper{
-    height: 140vh;
     padding-top: 4vh;
     text-align: center;
     padding-bottom: 8vh;
@@ -188,7 +187,6 @@ header{
 
 /* Contact Form Section */
 .contact-wrapper{
-    height: 100vh;
     padding-top: 9vh;
     text-align: center;
     padding-bottom: 80px;
@@ -202,10 +200,6 @@ header{
 
 .contact-item{
     flex: 50%;
-}
-
-.contact-img img{
-   width: 95vh;
 }
 
 .form{
@@ -234,6 +228,13 @@ header{
     margin-bottom: 10px;
 }
 
+.btn-send{
+    color: black;
+    text-align: left;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
 .submit{
     background-color: white;
     border: 1px solid black;
@@ -241,7 +242,6 @@ header{
     transition: all 0.5s;
     text-transform: uppercase;
     cursor: pointer;
-    margin-right: 53vh;
     
 }
 
@@ -253,7 +253,7 @@ header{
 
 /* Gozero section */
 .gozero-wrapper{
-    height: 160px;
+    padding-bottom: 5vh;
     text-align: center;
     letter-spacing: 0.5em;
     background-color: var(--seaweed);
@@ -282,7 +282,6 @@ header{
 
 footer{
     background-color: var(--grass);
-    height: 180px;
     padding-top:15px;
 }
 

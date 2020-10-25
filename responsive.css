@@ -42,36 +42,7 @@
   }
 
   .story-wrapper{
-    min-height: 150vh;
-    text-align: center;
-  }
-
-  .section{
-      font-weight: lighter;
-      padding-top: 40px;
-      text-transform: uppercase;
-      font-size: 18px;
-      letter-spacing: 0.6em;
-      align-items: flex-end;
-  }
-
-  .title{
-      padding-top: 5px;
-      text-transform: uppercase;
-      font-size: 36px;
-      line-height: 45px;
-      letter-spacing: 0.4em;
-  }
-
-  .content-story{
-      padding: 30px;
-      font-size: 19px;
-      line-height: 30px;
-      letter-spacing: 0.09em;
-  }
-
-  .story-wrapper{
-    min-height: 65vh;
+    margin-bottom: 10vh;
     text-align: center;
   }
   
@@ -100,7 +71,6 @@
   }
 
   .product-wrapper{
-    min-height: 180vh;
     padding-top: 4vh;
     text-align: center;
     padding-bottom: 8vh;
@@ -160,7 +130,6 @@
 
   /* Contact Form Section */
   .contact-wrapper{
-    height: 95vh;
     padding-top: 3vh;
     text-align: center;
     padding-bottom: 20vh;
@@ -210,6 +179,12 @@
     margin-bottom: 10px;
   }
 
+  .btn-send{
+    color: black;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+
   .submit{
     background-color: white;
     border: 1px solid black;
@@ -217,9 +192,6 @@
     transition: all 0.5s;
     text-transform: uppercase;
     cursor: pointer;
-    margin-left: 2vh;
-    margin-right: 30vh;
-    
   }
 
   .submit:hover{
@@ -229,7 +201,7 @@
   }  
 
   .gozero-wrapper{
-    height: 160px;
+    padding-bottom: 5vh;
     text-align: center;
     letter-spacing: 0.5em;
     background-color: var(--seaweed);
@@ -250,6 +222,49 @@
       transition: all 0.5s;
       text-transform: uppercase;
       cursor: pointer;
+  }
+
+  footer{
+    background-color: var(--grass);
+    padding-top:15px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-left img{
+    width: 12vh;
+  }
+
+  .footer-middle{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footer-middle, .footer-right{
+    font-size: 12px;
+  }
+
+
+  .footer-right{
+      display: flex;
+      flex-direction: column;
+  }
+  .footer-item{
+      color: white;
+  }
+
+  .copyright{
+      color: white;
+      font-size: 8px;
+      background-color: var(--greener);
+      text-align: center;
+      min-height: 30px;
+      height: 30px;
+      line-height: 30px;
+      letter-spacing: 0.2em;
   }
 
 
@@ -300,7 +315,7 @@
 
   /* Story Section */
   .story-wrapper{
-    min-height: 120vh;
+    margin-bottom: 5vh;
     text-align: center;
   }
 
@@ -330,7 +345,6 @@
 
   /* Product Section */
   .product-wrapper{
-    min-height: 320vh;
     padding-top: 4vh;
     text-align: center;
     padding-bottom: 8vh;
@@ -391,10 +405,9 @@
   
   /* Contact Form Section */
   .contact-wrapper{
-    min-height: 150vh;
     padding-top: 3vh;
     text-align: center;
-    padding-bottom: 20vh;
+    padding-bottom: 10vh;
   }
 
   .contact{
@@ -405,12 +418,8 @@
   }
 
   .contact-item{
-    flex: 50%;
+    flex: 100%;
     padding-top: 3vh;
-  }
-
-  .contact-img img{
-  width: 100%h;
   }
 
   .form{
@@ -439,6 +448,13 @@
     margin-bottom: 10px;
   }
 
+  .btn-send{
+    text-align: left;
+    color: black;
+    padding-left: 5vh;
+    padding-right: 5vh;
+  }
+
   .submit{
     background-color: white;
     border: 1px solid black;
@@ -456,7 +472,7 @@
   }
 
   .gozero-wrapper{
-    min-height: 160px;
+    padding-bottom: 5vh;
     text-align: center;
     letter-spacing: 0.3em;
     background-color: var(--seaweed);
@@ -480,6 +496,48 @@
       font-size: 2vh;
   }
 
+  /* footer section */
+  footer{
+    background-color: var(--grass);
+    padding-top:15px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-left img{
+    width: 12vh;
+  }
+
+  .footer-middle{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footer-middle, .footer-right{
+    font-size: 10px;
+  }
+
+
+  .footer-right{
+      display: flex;
+      flex-direction: column;
+  }
+  .footer-item{
+      color: white;
+  }
+
+  .copyright{
+      color: white;
+      font-size: 8px;
+      background-color: var(--greener);
+      text-align: center;
+      height: 30px;
+      line-height: 30px;
+      letter-spacing: 0.2em;
+  }
  
 
 }
