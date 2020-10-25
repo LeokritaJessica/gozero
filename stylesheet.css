@@ -251,6 +251,7 @@ header{
     border: 1px solid black;
 }
 
+/* Gozero section */
 .gozero-wrapper{
     height: 160px;
     text-align: center;
@@ -276,6 +277,8 @@ header{
     background-color: var(--grass);
     border: 1px solid black;
 }
+
+/* footer section */
 
 footer{
     background-color: var(--grass);

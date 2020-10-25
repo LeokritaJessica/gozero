@@ -42,7 +42,7 @@
   }
 
   .story-wrapper{
-    height: 150vh;
+    min-height: 150vh;
     text-align: center;
   }
 
@@ -71,7 +71,7 @@
   }
 
   .story-wrapper{
-    height: 65vh;
+    min-height: 65vh;
     text-align: center;
   }
   
@@ -100,7 +100,7 @@
   }
 
   .product-wrapper{
-    height: 180vh;
+    min-height: 180vh;
     padding-top: 4vh;
     text-align: center;
     padding-bottom: 8vh;
@@ -160,7 +160,7 @@
 
   /* Contact Form Section */
   .contact-wrapper{
-    height: 100vh;
+    height: 95vh;
     padding-top: 3vh;
     text-align: center;
     padding-bottom: 20vh;
@@ -228,6 +228,30 @@
     border: 1px solid black;
   }  
 
+  .gozero-wrapper{
+    height: 160px;
+    text-align: center;
+    letter-spacing: 0.5em;
+    background-color: var(--seaweed);
+  }
+
+  .heading{
+      line-height: 100px;
+  }
+
+  .heading h1{
+    font-size: 4vh;
+  }
+
+  .subscribe{
+      background-color: white;
+      border: 1px solid black;
+      padding: 10px 50px;
+      transition: all 0.5s;
+      text-transform: uppercase;
+      cursor: pointer;
+  }
+
 
 }
 
@@ -242,7 +266,7 @@
     background-color: var(--cream);
     font-size: 0.6rem;
     text-align: center;
-    height: 3em;
+    min-height: 3em;
     letter-spacing: 0.2rem;
     align-items: center;
   }
@@ -276,7 +300,7 @@
 
   /* Story Section */
   .story-wrapper{
-    height: 120vh;
+    min-height: 120vh;
     text-align: center;
   }
 
@@ -306,7 +330,7 @@
 
   /* Product Section */
   .product-wrapper{
-    height: 320vh;
+    min-height: 320vh;
     padding-top: 4vh;
     text-align: center;
     padding-bottom: 8vh;
@@ -367,7 +391,7 @@
   
   /* Contact Form Section */
   .contact-wrapper{
-    height: 100vh;
+    min-height: 150vh;
     padding-top: 3vh;
     text-align: center;
     padding-bottom: 20vh;
@@ -429,6 +453,31 @@
     color: white;
     background-color: var(--grass);
     border: 1px solid black;
+  }
+
+  .gozero-wrapper{
+    min-height: 160px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    background-color: var(--seaweed);
+  }
+
+  .heading{
+      line-height: 100px;
+  }
+
+  .heading h1{
+    font-size: 2vh;
+  }
+
+  .subscribe{
+      background-color: white;
+      border: 1px solid black;
+      padding: 10px 50px;
+      transition: all 0.5s;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-size: 2vh;
   }
 
  
