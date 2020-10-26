@@ -1,16 +1,7 @@
 /* For Tablets */
 @media all and (max-width: 1024px){
-  .header-right, .header-left{
-    display: none;
-  }
-
   .navbar{
     justify-content: space-between;
-  }
-
-  .menu-icon{
-    display: flex !important;
-    
   }
 
   .promote{
@@ -279,6 +270,21 @@
 
 }
 
+/* For Tablet */
+@media all and (max-width: 950px){
+  .header-right, .header-left{
+    display: none;
+  }
+
+  .navbar{
+    justify-content: space-between;
+  }
+
+  .menu-icon{
+    display: flex !important;
+    
+  }
+}
 /* For Mobile */
 @media all and (max-width: 670px){
   .header-right, .header-left{
@@ -288,6 +294,13 @@
   .menu-icon{
     display: flex !important;
     
+  }
+
+  .menu-burger{
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 18vh;
   }
 
   .promote{
